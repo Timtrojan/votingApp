@@ -1,7 +1,7 @@
-package utils;
-import data.models.Voter;
-import dtos.requests.VoterRegisterRequest;
-import dtos.responses.VoterRegisterResponse;
+package org.example.utils;
+import org.example.data.models.Voter;
+import org.example.dtos.requests.VoterRegisterRequest;
+import org.example.dtos.responses.VoterRegisterResponse;
 
 public class VoterRegisterMapper {
     public static Voter mapVoterRegisterToModel  (VoterRegisterRequest registerRequest) {

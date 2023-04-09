@@ -1,12 +1,13 @@
-package services;
+package org.example.services;
 
-import data.models.Voter;
-import data.repositories.VoterRepository;
-import dtos.requests.VoterRegisterRequest;
-import dtos.responses.VoterRegisterResponse;
+import org.example.data.models.Voter;
+import org.example.data.repositories.VoterRepository;
+import org.example.dtos.requests.VoterRegisterRequest;
+import org.example.dtos.responses.VoterRegisterResponse;
+import org.example.utils.VoterRegisterMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import utils.VoterRegisterMapper;
+
 @Service
 public class VoterServiceImplementation implements VoterService{
     @Autowired

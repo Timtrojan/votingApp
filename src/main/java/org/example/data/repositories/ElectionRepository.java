@@ -1,6 +1,6 @@
-package data.repositories;
+package org.example.data.repositories;
 
-import data.models.Election;
+import org.example.data.models.Election;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ElectionRepository extends MongoRepository<Election, String> {

@@ -1,8 +1,8 @@
-package utils;
+package org.example.utils;
 
-import data.models.Candidate;
-import dtos.requests.CandidateRegisterRequest;
-import dtos.responses.CandidateRegisterResponse;
+import org.example.data.models.Candidate;
+import org.example.dtos.requests.CandidateRegisterRequest;
+import org.example.dtos.responses.CandidateRegisterResponse;
 
 public class CandidateRegisterMapper {
     public static Candidate mapRegisterCandidate(CandidateRegisterRequest registerRequest) {

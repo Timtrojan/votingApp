@@ -5,12 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="935e4ad5-a3b1-4efd-88c0-8d1ae973d767" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/CandidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/ElectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/ElectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/VoterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/VoterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/models/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/models/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/models/Election.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/models/Election.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/models/ElectionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/models/ElectionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/models/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/models/Voter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/CandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/CandidateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/ElectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/ElectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/VoterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/VoterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/requests/CandidateRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dtos/requests/CandidateRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/requests/ElectionRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dtos/requests/ElectionRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/requests/VoterRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dtos/requests/VoterRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/responses/CandidateRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dtos/responses/CandidateRegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/responses/ElectionCreationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dtos/responses/ElectionCreationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/responses/VoterRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dtos/responses/VoterRegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CandidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CandidateServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CandidateServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/ElectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/ElectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/ElectionServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/ElectionServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/VoterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/VoterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/VoterServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/VoterServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/CandidateRegisterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/CandidateRegisterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/ElectionRegisterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/ElectionRegisterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/VoterRegisterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/VoterRegisterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/services/ElectionServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/services/ElectionServiceImplementationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NbpJjf9x7yFGv2tdhbOwgEcU0J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,12 +64,74 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/Admin/VotingApp/src/main/java/dtos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "cb38d369eea1f3ccf59338440b4dc58d"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\VotingApp\src\main\java\dtos" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.services" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn --check-plugin-updates" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="VotingApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #15" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,9 +140,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679942568664</updated>
-      <workItem from="1679942598554" duration="3000" />
+      <workItem from="1679942598554" duration="49613000" />
+      <workItem from="1680948526710" duration="1206000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

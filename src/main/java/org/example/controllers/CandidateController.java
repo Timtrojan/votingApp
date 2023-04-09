@@ -1,10 +1,9 @@
-package controllers;
+package org.example.controllers;
 
-import dtos.requests.CandidateRegisterRequest;
+import org.example.dtos.requests.CandidateRegisterRequest;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
-import services.CandidateService;
+import org.example.services.CandidateService;
 
 @RestController
 @RequestMapping("/candidate")
@@ -12,7 +11,7 @@ public class CandidateController {
     @Autowired
     private CandidateService candidateServices;
 
-    @PostMapping("/registerCandidate")
+    @PostMapping("registerCandidate")
     public Object registerCandidate(@RequestBody CandidateRegisterRequest candidateRegisterRequest){
         return candidateServices.registerCandidate(candidateRegisterRequest);
     }

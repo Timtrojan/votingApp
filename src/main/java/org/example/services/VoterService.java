@@ -1,7 +1,7 @@
-package services;
+package org.example.services;
 
-import dtos.requests.VoterRegisterRequest;
-import dtos.responses.VoterRegisterResponse;
+import org.example.dtos.requests.VoterRegisterRequest;
+import org.example.dtos.responses.VoterRegisterResponse;
 
 public interface VoterService {
     public VoterRegisterResponse registerVoter(VoterRegisterRequest voterRegisterRequest);

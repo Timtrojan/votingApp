@@ -1,6 +1,6 @@
-package data.repositories;
+package org.example.data.repositories;
 
-import data.models.Voter;
+import org.example.data.models.Voter;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface VoterRepository extends MongoRepository<Voter, String> {

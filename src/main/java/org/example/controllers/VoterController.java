@@ -1,13 +1,13 @@
-package controllers;
+package org.example.controllers;
 
-import dtos.requests.VoterRegisterRequest;
+import org.example.dtos.requests.VoterRegisterRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import services.VoterService;
+import org.example.services.VoterService;
 @RestController
 public class VoterController {
     @Autowired

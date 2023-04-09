@@ -1,17 +1,18 @@
-package services;
+package org.example.services;
 
-import data.models.Candidate;
-import data.repositories.CandidateRepository;
-import dtos.requests.CandidateRegisterRequest;
-import dtos.responses.CandidateRegisterResponse;
+import org.example.data.models.Candidate;
+import org.example.data.repositories.CandidateRepository;
+import org.example.dtos.requests.CandidateRegisterRequest;
+import org.example.dtos.responses.CandidateRegisterResponse;
+import org.example.utils.CandidateRegisterMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import utils.CandidateRegisterMapper;
 
 @Service
 public class CandidateServiceImplementation implements CandidateService {
     @Autowired
     private CandidateRepository candidateRepository;
+
     @Override
     public CandidateRegisterResponse registerCandidate(CandidateRegisterRequest register) {
         Candidate candidate = candidateRepository.save(CandidateRegisterMapper.mapRegisterCandidate(register));

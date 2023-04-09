@@ -1,14 +1,47 @@
-package dtos.requests;
+package org.example.dtos.requests;
 
-import data.models.Candidate;
-import data.models.ElectionType;
+import com.mongodb.client.model.Collation;
+import org.example.data.models.Candidate;
+import org.example.data.models.ElectionType;
 import lombok.Data;
+import org.example.data.repositories.CandidateRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import java.util.Collection;
 import java.util.List;
-@Data
+import java.util.Map;
+
+@Service
 public class ElectionRegisterRequest {
+
+    @Autowired
+    private CandidateRepository candidateRepository;
     private String electionId;
     private ElectionType electionType;
+    private Map<String,Candidate> candidateList;
 
-    private List<Candidate> candidates;
+    public String getElectionId() {
+        return electionId;
+    }
+
+    public void setElectionId(String electionId) {
+        this.electionId = electionId;
+    }
+
+    public ElectionType getElectionType() {
+        return electionType;
+    }
+
+    public void setElectionType(ElectionType electionType) {
+        this.electionType = electionType;
+    }
+
+    public Collection<Candidate> getCandidateList() {
+        return candidateRepository.findAll();
+    }
+
+    public void setCandidateList(Map<String,Candidate> candidateList) {
+        this.candidateList = candidateList;
+    }
 }

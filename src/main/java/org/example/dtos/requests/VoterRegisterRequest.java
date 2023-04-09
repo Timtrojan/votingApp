@@ -1,4 +1,4 @@
-package dtos.requests;
+package org.example.dtos.requests;
 
 import lombok.Data;
 
